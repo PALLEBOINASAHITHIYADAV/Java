@@ -8,14 +8,17 @@ public class MaxOfThree {
         int b= sc.nextInt();
          System.out.print("enter third number: ");
         int c= sc.nextInt();
-        if(a > b && a > c){
-            System.out.println(a + "is greater");
+      if (a == b && b == c) {
+    System.out.println("All numbers are equal");
+     }
+      if(a > b && a > c){
+            System.out.println(a + " is greater");
         }
        else if(b > a && b > c){
-            System.out.println( b +"is greater");
+            System.out.println( b + " is greater");
         }
         else{
-        System.out.println(c + "is greater");
+        System.out.println(c + " is greater");
         }
         sc.close();
     }
