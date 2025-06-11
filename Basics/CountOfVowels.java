@@ -11,7 +11,7 @@ class Main{
              if(ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u'){
                  count ++;
              }
-            // System.out.println(count);
+            
             
         }
          System.out.println(count);
